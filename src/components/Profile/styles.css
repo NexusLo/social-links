@@ -1,0 +1,78 @@
+.mainContainer{
+    margin-top: 20px;
+    width: 85%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.cardContainer{
+    width: 385px; /* occupe toute la largeur */
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hwb(0 12% 88%);
+    border-radius: 20px;
+
+}
+.imgContainer{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.titleContainer{
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.name{
+    color :white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.localisation{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: -15px;
+}
+.description{
+    color: white;
+    margin-bottom: 30px;
+}
+.buttonContainer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.button{
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color:  hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+}
+.button:active{
+    background-color: hsl(75, 94%, 57%);
+    color:   hsl(0, 0%, 20%);
+    cursor: pointer
+}
